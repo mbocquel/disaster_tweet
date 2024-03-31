@@ -399,3 +399,5 @@ FodyWeavers.xsd
 
 goinfre
 *.pth
+data
+submission.csv
