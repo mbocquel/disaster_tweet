@@ -11,11 +11,12 @@ Then, I cleaned my dataset by removing stopwords, stemming the words, and tokeni
 
 I used a deep learning approach using PyTorch. I started by creating an Embedding layer and then tried a few model architectures:
 
-Model 1: RNN with L2 regularization (weight_decay=0.01)
-Model 2: RNN with a dense layer of 16 neurons without regularization
-Model 3: LSTM without regularization
-Model 4: LSTM with L2 regularization (weight_decay=0.01)
-Model 5: LSTM with L2 regularization (weight_decay=0.02)
+- Model 1: RNN with L2 regularization (weight_decay=0.01)
+- Model 2: RNN with a dense layer of 16 neurons without regularization
+- Model 3: LSTM without regularization
+- Model 4: LSTM with L2 regularization (weight_decay=0.01)
+- Model 5: LSTM with L2 regularization (weight_decay=0.02)
+
 After analyzing the learning curves (Loss, Accuracy, and F1 Score), I decided to use Model 4 and stopped the training after 18 epochs.
 
 ## My Results on Kaggle
